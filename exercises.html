@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+ <head>
+ <meta charset = "UTF-8" content="width=device-width, initial-scale=1" content="height=device-heigth, initial-scale=1">
+ <title>Exercises</title>
+ <style type = "text/css">
+  body,html {
+    height: 80%;
+    width: 100%;
+    background-color: black;
+  }
+  li {
+    float: right;
+    border-bottom: 1px solid #B3E1F4;
+}
+li a {
+    display: block;
+    color: #B3E1F4;
+    font-family: papyrus;
+    font-size: 20pt;
+    text-align: center;
+    padding: 2px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    text-decoration: underline;
+}
+ul {
+    position: fixed;
+    top: 0;
+    width: 95%;
+}
+  .parallax {
+    /* The image used */
+    background-image: url('ex.png');
+    /* Full height */
+    height: 100%; 
+    width:  100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+}
+.column {
+  float:left;
+   height: 283.33px;
+   width:45%;
+}
+table{
+  width: 100%;
+}
+th{
+  vertical-align: center;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  
+}
+h1{
+  font-size: 30px;
+}
+p{
+  vertical-align: middle;
+  font-size: 20px;
+  color: white;
+}
+</style>
+</head>
+
+<ul>
+  <li><a href="commonInjuries.html">Common Injuries</a></li>
+  <li><a href="nutrition.html">Nutrition</a></li>
+  <li><a href="exercises.html">Exercises</a></li>
+  <li><a href="index.html">Home</a></li>
+</ul>
+
+<div class="parallax"></div>
+
+<div style="height:850px;background-color:black;font-size:36px;color:white;font-family: Papyrus">
+  <div class  = "row">
+    <div style = "text-align: center; font-size: 30px;"">
+    <p> Targetting certain areas of weakness can help you improve your body and take your game to the next level.<br>  Click on the pictures to learn more!</p>
+  </div>
+  <div class = "row">
+    <div style = "text-align: center; padding-left: 30px; padding-top: 30px; ">
+    <div class = "column">
+      <img src = "stamina.jpg" alt = "stamina" height = 250 width  = 400>
+    </div>
+    <div class = "column">
+      <p> Cardiovascular activity will increase the efficiency at which oxygen is delivered to your muscles.  Engaging in these exercises will help you improve your body over a steady period of time</p>
+  </div>
+</div>
+<div class = "row">
+  <div style = "text-align: center; padding-left: 30px;">
+    <div class = "column">
+      <p> Building your strength is an important part of improving your game.  These strength training exercises will give you the edge you need to become better at your game.</p>
+    </div>
+    <div class = "column">
+      <img src = "strength training.jpg" alt = "strength" height = 200 width=350>
+    </div>
+  </div>
+  <div class = "row">
+    <div style = "text-align: center; padding-left: 30px; padding-top: 30px; ">
+    <div class = "column">
+      <img src = "flex.jpg" alt = "flexibility" height = 250 width  = 400>
+    </div>
+    <div class = "column">
+      <p> Improving your flexibility can help you in more ways than one.  Flexibility can help prevent back injuries, improve balance, and improve your range of motion.  Click here to find some exercises to help develop your flexibility</p>
+  </div>
+</div>
+  </body>
+  </html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+ <head>
+ <meta charset = "UTF-8">
+ <title>FirstWebsite</title>
+ <style type = "text/css">
+  body,html {
+    height: 80%;
+    width: 100%;
+    background-color: black;
+  }
+  .parallax {
+    /* The image used */
+    background-image: url('nit2.png');
+    /* Full height */
+    height: 100%; 
+    width:  100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+}
+.column {
+  float: left;
+   padding-top: 20px;
+   padding-left: 20px;
+   height: 300px;
+   text-align: center;
+}
+.left{
+  width  = 25%;
+}
+.right{
+  width = 70%;
+}
+table{
+  width: 100%;
+}
+th{
+  vertical-align: center;
+}
+/* Clear floats after the columns */
+p{
+  text-align: left;
+  vertical-align: middle;
+  font-size: 18px;
+  color: white;
+}
+em{
+  font-size: 30px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: #B3E1F4;
+    font-family: papyrus;
+    font-size: 20pt;
+    text-align: center;
+    padding: 2px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    text-decoration: underline;
+}
+ul {
+    width: 95%;
+    list-style-type: none;
+}
+</style>
+</head>
+
+<ul style="position:fixed">
+  <li style="float:right;top:0; border-bottom: 1px solid #B3E1F4;"><a href="commonInjuries.html">Common Injuries</a></li>
+  <li style = "float: right; top: 0; border-bottom: 1px solid #B3E1F4;""><a href="nutrition.html">Nutrition</a></li>
+  <li style = "float: right; top: 0; border-bottom: 1px solid #B3E1F4;"><a href="exercises.html">Exercises</a></li>
+  <li style = "float: right; top: 0; border-bottom: 1px solid #B3E1F4;"><a href="index.html">Home</a></li>
+</ul>
+
+<div class="parallax"></div>
+
+<div style="height:900px;background-color:black;font-size:36px;color:white;font-family: Papyrus">
+  
+    
+
+<div class="row">
+  <div class = "column left">
+    <img src = "cardio.jpg" alt = "cardio" height=250 width =300>
+  </div>
+  <div class = "column right">
+    <p> <em>Cardio </em> requires both fat and carbohydrates as fuel for exercize.<br>  In order to ensure that the body has the reserves that it needs, it is better to include both in your diet. <br> Follow the links to see the best foods to eat before and after any activity that requires heavy cardio.</p>
+    <ul style = "list-style-type: none">
+      <li><a href="#Before">Before Workout</a></li>
+      <li><a href="#After">After Workout</a></li>
+    </ul>
+  </div>
+</div>
+<div class="row">
+  <div class = "column left">
+    <img src = "lift.jpg" alt = "lift" height  = 200 width = 300>
+  </div>
+  <div class = "column right">
+    <p><em>Resistance </em> training allows for the increase of muscle mass. <br>  This can come from any activity in which you engage your stabilizing muscles.  <br>Fueling up to build muscle mass can make the difference in taking full advantage of your activity.<br>  Click the links below to see the foods that you should fuel up with before you hit the field!</p>
+     <ul style = "list-style-type: none">
+      <li><a href="#Before">Before Workout</a></li>
+      <li><a href="#After">After Workout</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class = "row">
+  <div class = "column left">
+    <img src = "everyday.jpg" alt = "everyday" height = 250 width = 300>
+  </div>
+  <div class ="column right">
+    <p><em>Daily Life </em> plays an important part in maintaining a healthy life style. <br> Incorporating small changes into your diet can make a huge impact on the results that you see. <br> Click the links below to see some diets for both gaining and losing weight</p>
+     <ul style = "list-style-type: none">
+      <li><a href="#Before">Gaining Weight</a></li>
+      <li><a href="#After">Losing Weight</a></li>
+    </ul>
+  </div>
+  </div>
+</body>
+</html>
+
